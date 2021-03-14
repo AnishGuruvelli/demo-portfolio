@@ -1,0 +1,199 @@
+/* 
+"""
+
+font size
+16px = 100% = 1em
+
+""" 
+*/
+
+
+body{
+    margin: 0;
+    color: #40514e;
+    text-align: center;
+    /* this one property makes eerything get aligned to the centre  */
+    font-family: 'Playfair Display', serif;
+}
+
+
+h1{
+    margin-top: 0px;
+    /* width: 30%;  */
+    /* and in this case it wont get centered so in this case we an also centre it by using the margin property  */
+    /* margin: auto; this is for alll 4 sides  */
+    /* margin: 0 auto; this is for alll tombottom and leftright sides  */
+    /* margin: 0 auto 0 auto;  */
+    /* this is for alll top and right and bottom and left sides  */
+    /* the above two statements mean the same thing */
+    /* and if u have 3 then its top, leftright, and bottom  */
+}
+
+h1{
+    /* font-size: 90px; and its always advised to enter the sizes in the form of percentages instead of px  */
+    /* font-size: 500%; we dont represent it in % too in modern days instead we use em, mentioned it in detail at the top of the styles.css */
+    font-size: 5.625em;
+    margin: 100px auto 0px auto;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+h2{
+    font-size: 300%;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+p, h3{
+    line-height: 2.5;
+}
+
+/* very imp for those dots to be displayed */
+
+hr{
+    border: dotted 6px #40514e;
+    border-bottom: none;
+    width: 30%;
+    margin: 100px auto;
+}
+
+a{
+    color: #11999e;
+    font-family: 'Playfair Display', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 40%;
+    margin: 0px auto 100px;
+}
+
+.topcontainer{
+    background-color: #eaf6f6;
+    padding-top: 100px;
+    margin: 0px auto 0px auto;
+}
+
+.middlecontainer{
+    margin: 100px 0px;
+    /* for topbottom and leftright  */
+}
+
+
+.bottomcontainer{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.codeimage1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.codeimage2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.topcloud{
+    /* position: relative;
+    right: -400px;
+    top: 100px; */
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottomcloud{
+    /* position: relative;
+    right: 100px;
+    bottom: 300px; */
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.about{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.copyright{
+    color:#eaf6f6;
+    padding: 20px 0px;
+}
+
+
+/* <style type="text/css"> */
+.classname {
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2) );
+	background:-moz-linear-gradient( center top, #33bdef 5%, #019ad2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2');
+	background-color:#33bdef;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+text-indent:0;
+	border:1px solid #057fd0;
+	display:inline-block;
+	color:#ffffff;
+    font-family: 'Playfair Display', serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px -1px 0px #5b6178;
+}
+
+
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef) );
+	background:-moz-linear-gradient( center top, #019ad2 5%, #33bdef 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef');
+	background-color:#019ad2;
+}
+
+
+.classname:active {
+	position:relative;
+	top:1px;
+}
+/* </style> */
